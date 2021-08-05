@@ -1,0 +1,72 @@
+.Search {
+  width: 150px;
+  max-width: 50%;
+  height: 34px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 400px) {
+  .Search {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Search {
+    width: 250px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .Search {
+    width: 350px;
+    height: 46px;
+  }
+}
+
+.Search input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  padding: 0 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.Search input::-webkit-input-placeholder {
+  color: #555;
+  font-size: .8rem;
+}
+
+.Search input:-ms-input-placeholder {
+  color: #555;
+  font-size: .8rem;
+}
+
+.Search input::-ms-input-placeholder {
+  color: #555;
+  font-size: .8rem;
+}
+
+.Search input::placeholder {
+  color: #555;
+  font-size: .8rem;
+}
+
+.Search input:focus {
+  border: 3px solid rgba(73, 130, 255, 0.5);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}

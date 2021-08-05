@@ -1,0 +1,36 @@
+.Profile {
+  color: black !important;
+  margin-right: 20px;
+}
+
+.Profile .username {
+  font-size: 1.1rem !important;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.Profile button {
+  background-color: transparent !important;
+  border: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+  padding: 10px 0 !important;
+}
+
+.Profile button a {
+  text-decoration: none !important;
+  color: #222 !important;
+}
+
+.Profile .btn:focus, .Profile .btn:hover, .Profile .btn:active,
+.Profile .btn .active,
+.Profile .btn-primary:focus,
+.Profile .btn-primary:hover,
+.Profile .btn-primary:active,
+.Profile .btn-primary .active {
+  border: none !important;
+  border-color: #fff !important;
+  outline: none !important;
+}
